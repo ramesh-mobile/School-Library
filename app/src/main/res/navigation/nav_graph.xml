@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/AddStudentFragment">
+
+    <fragment
+        android:id="@+id/AddStudentFragment"
+        android:name="com.sr.library.ui.add_student.AddStudentFragment"
+        android:label="@string/add_student_fragment_label"
+        tools:layout="@layout/fragment_add_student">
+
+        <action
+            android:id="@+id/action_AddStudentFragment_to_AllStudentFragment"
+            app:destination="@id/AllStudentFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/AllStudentFragment"
+        android:name="com.sr.library.ui.all_student.AllStudentFragment"
+        android:label="@string/all_student_fragment_label"
+        tools:layout="@layout/fragment_all_student">
+
+        <action
+            android:id="@+id/action_AllStudentFragment_to_EditStudentFragment"
+            app:destination="@id/UpdateStudentFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/UpdateStudentFragment"
+        android:name="com.sr.library.ui.delete_student.UpdateStudentFragment"
+        android:label="@string/update_student_fragment_label"
+        tools:layout="@layout/fragment_update_student">
+
+        <action
+            android:id="@+id/action_UpdateStudentFragment_to_AllStudentFragment"
+            app:destination="@id/AllStudentFragment"
+            />
+    </fragment>
+</navigation>

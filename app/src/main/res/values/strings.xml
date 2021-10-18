@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">SchoolLibraray</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="add_student_fragment_label">Add Student</string>
+    <string name="all_student_fragment_label">Student List</string>
+    <string name="update_student_fragment_label">Update Student</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <!--add student start-->
+    <string name="name">Name</string>
+    <string name="mob_no">Mobile No</string>
+    <string name="show_all">Show All</string>
+    <string name="save">Save</string>
+    <string name="update">Update</string>
+
+    <string name="edit"><u>Update</u></string>
+    <string name="delete"><u>Delete</u></string>
+
+    <string-array name="all_books">
+        <item id="11">Book A</item>
+        <item id="22">Book B</item>
+        <item id="33">Book C</item>
+    </string-array>
+
+
+    <!--messages start-->
+    <string name="name_field_error">Name field should not empty</string>
+    <string name="phone_field_error">Mobile no should have 10 numbers only</string>
+    <string name="phone_not_valid">Mobile no is not valid</string>
+    <!--messages end-->
+
+
+    <!--add student start-->
+</resources>
